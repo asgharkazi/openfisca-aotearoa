@@ -4,10 +4,8 @@
   input:
     sole_parent_support__requirement: [true, false, true, true, true]
     sole_parent_support__split_care: [true, true, false, true, true]
-    social_security__residential_requirement:
-      month:2019-01:2: [true, true, true, false, true]
-    sole_parent_support__age_threshold:
-      month:2019-01: [true, true, true, true, false]
+    social_security__residential_requirement: [true, true, true, false, true]
+    sole_parent_support__age_threshold: [true, true, true, true, false]
   output:
     sole_parent_support__entitled: [true, false, false, false, false]
 
@@ -20,8 +18,7 @@
         age: 50
         sole_parent_support__requirement: true
         sole_parent_support__split_care: true
-        social_security__residential_requirement:
-          month:2019-01:2: true
+        social_security__residential_requirement: true
         sole_parent_support__age_threshold: true
       Tamaiti:
         age: 5
@@ -42,8 +39,7 @@
   input:
     social_security__in_a_relationship: false
     sole_parent_support__split_care: true
-    social_security__residential_requirement:
-      month:2019-01:2: true
+    social_security__residential_requirement: true
     sole_parent_support__age_threshold: true
   output:
     sole_parent_support__entitled: true
@@ -57,8 +53,7 @@
         age: 50
         social_security__in_a_relationship: false
         sole_parent_support__split_care: true
-        social_security__residential_requirement:
-          month:2019-01: true
+        social_security__residential_requirement: true
         sole_parent_support__age_threshold: true
       Tamaiti:
         age: 5
@@ -79,8 +74,7 @@
   input:
     sole_parent_support__spouse_or_partner_died: true
     sole_parent_support__split_care: true
-    social_security__residential_requirement:
-      month:2019-01:2: true
+    social_security__residential_requirement: true
     sole_parent_support__age_threshold: true
   output:
     sole_parent_support__entitled: true
@@ -93,8 +87,7 @@
       Koro:
         sole_parent_support__spouse_or_partner_died: true
         sole_parent_support__split_care: true
-        social_security__residential_requirement:
-          month:2019-01:2: true
+        social_security__residential_requirement: true
         sole_parent_support__age_threshold: true
       Tamaiti:
         age: 5
@@ -115,8 +108,7 @@
   input:
     sole_parent_support__marriage_or_civil_union_dissolved: true
     sole_parent_support__split_care: true
-    social_security__residential_requirement:
-      month:2019-01:2: true
+    social_security__residential_requirement: true
     sole_parent_support__age_threshold: true
   output:
     sole_parent_support__entitled: true
@@ -129,8 +121,7 @@
       Koro:
         sole_parent_support__marriage_or_civil_union_dissolved: true
         sole_parent_support__split_care: true
-        social_security__residential_requirement:
-          month:2019-01:2: true
+        social_security__residential_requirement: true
         sole_parent_support__age_threshold: true
       Tamaiti:
         age: 5
@@ -151,8 +142,7 @@
   input:
     sole_parent_support__living_apart_and_lost_support: true
     sole_parent_support__split_care: true
-    social_security__residential_requirement:
-      month:2019-01:2: true
+    social_security__residential_requirement: true
     sole_parent_support__age_threshold: true
   output:
     sole_parent_support__entitled: true
@@ -165,8 +155,7 @@
       Koro:
         sole_parent_support__living_apart_and_lost_support: true
         sole_parent_support__split_care: true
-        social_security__residential_requirement:
-          month:2019-01:2: true
+        social_security__residential_requirement: true
         sole_parent_support__age_threshold: true
       Tamaiti:
         age: 5
@@ -187,8 +176,7 @@
   input:
     sole_parent_support__lost_regular_support: true
     sole_parent_support__split_care: true
-    social_security__residential_requirement:
-      month:2019-01:2: true
+    social_security__residential_requirement: true
     sole_parent_support__age_threshold: true
   output:
     sole_parent_support__entitled: true
@@ -201,8 +189,7 @@
       Koro:
         sole_parent_support__lost_regular_support: true
         sole_parent_support__split_care: true
-        social_security__residential_requirement:
-          month:2019-01:2: true
+        social_security__residential_requirement: true
         sole_parent_support__age_threshold: true
       Tamaiti:
         age: 5
@@ -223,8 +210,7 @@
   input:
     sole_parent_support__partner_imprisoned: true
     sole_parent_support__split_care: true
-    social_security__residential_requirement:
-      month:2019-01:2: true
+    social_security__residential_requirement: true
     sole_parent_support__age_threshold: true
   output:
     sole_parent_support__entitled: true
@@ -237,8 +223,7 @@
       Koro:
         sole_parent_support__partner_imprisoned: true
         sole_parent_support__split_care: true
-        social_security__residential_requirement:
-          month:2019-01:2: true
+        social_security__residential_requirement: true
         sole_parent_support__age_threshold: true
       Tamaiti:
         age: 5
@@ -258,8 +243,7 @@
   input:
     sole_parent_support__partner_supervision: true
     sole_parent_support__split_care: true
-    social_security__residential_requirement:
-      month:2019-01:2: true
+    social_security__residential_requirement: true
     sole_parent_support__age_threshold: true
   output:
     sole_parent_support__entitled: true
@@ -272,8 +256,7 @@
       Koro:
         sole_parent_support__partner_supervision: true
         sole_parent_support__split_care: true
-        social_security__residential_requirement:
-          month:2019-01:2: true
+        social_security__residential_requirement: true
         sole_parent_support__age_threshold: true
       Tamaiti:
         age: 5
